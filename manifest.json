@@ -1,0 +1,16 @@
+{
+  "name": "Eden",
+  "description": "Track your study time and Reward yourself for being productive!",
+  "version": "1.0",
+  "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "imgs/btime.png",
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": [
+      "tabs", "storage"]
+
+}
